@@ -31,7 +31,7 @@ function studentMarks(value){
 //  print the result to the console
 console.log('you got ' + studentMarks(80) );
 console.log('you got ' + studentMarks(45) );
-
+studentMarks(value);
 
 
 
@@ -171,4 +171,4 @@ function netSalary(basicSalary, benefits){
         console.log(`Your Net Salary is ${finalnetSalary}`)
       }
 }
-netSalary();
+netSalary(basicSalary, benefits);
